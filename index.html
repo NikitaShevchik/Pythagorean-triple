@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Заголовок страницы в браузере -->
+	<title>Тройка Пифагора</title>
+	<!-- Подключение CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- Фавикон -->
+	<link rel="shortcut icon" href="">
+</head>
+<!--Даны 3 инпута. В них вводятся числа. Проверьте, что эти числа являются тройкой Пифагора: 
+квадрат самого большого числа должен быть равен сумме квадратов двух остальных.-->
+<body>
+	<main class="main">
+		<div class="content">
+			<div class="triple">
+				<div class="triple__text">Первое число</div>
+				<input type="text" class="triple__input triple__input_1">
+				<div class="triple__text">Второе число</div>
+				<input type="text" class="triple__input triple__input_2">
+				<div class="triple__text">Третье число</div>
+				<input type="text" class="triple__input triple__input_3">
+				<button class="triple__button">
+					Проверить числа
+				</button>
+				<div class="triple__result"></div>
+			</div>
+		</div>
+	</main>
+	<script src="js/scrypt.js"></script>
+</body>
+
+</html>
